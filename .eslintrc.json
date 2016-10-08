@@ -5,6 +5,10 @@
         "jsx-a11y",
         "import"
     ],
+    "globals":{
+      "describe": true,
+      "it": true
+    },
     "rules": {
       "semi": [2, "never"],
       "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.test.js"]}]
